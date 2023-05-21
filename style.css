@@ -18,9 +18,13 @@ header nav{
 }
 header nav a{
     text-decoration: none;
-
 }
-
+.Gmail:hover{
+    text-decoration: underline;
+}
+.Img:hover{
+    text-decoration: underline;
+}
 .Iniciar{
     cursor: pointer;
     color: #fff;
@@ -69,6 +73,7 @@ main div.Barra{
     border: 1px solid #c7c7c7;
     border-radius: 24px;
     background-color: transparent;
+    
 }
 
 main div span.logobus{
@@ -132,6 +137,9 @@ main div.buscarsuerte {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}main div button.botonbuscar :hover{
+    
+    
 }
 
 footer{
@@ -157,8 +165,18 @@ footer section.Links{
     display: flex;
     justify-content: space-between;
    
-}footer section.Links div a{
+}footer section div.Barralinks1 a{
     text-decoration: none;
     color: #70757a;
     padding: 15px;
+}footer section div.Barralinks1 a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}footer section div.Barralinks2 a{
+    text-decoration: none;
+    color: #70757a;
+    padding: 15px;
+}footer section div.Barralinks2 a:hover{
+    cursor:pointer;
+    text-decoration: underline;
 }
