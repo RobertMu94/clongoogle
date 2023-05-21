@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff; 
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    height: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    margin: 10px;   
+}
+header nav a{
+    text-decoration: none;
+
+}
+
+.Iniciar{
+    cursor: pointer;
+    color: #fff;
+    background-color: #4285f4;
+    border: 1px solid transparent;
+    margin-left: 8px;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20;
+    letter-spacing: .25px;
+    line-height: 14px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Iniciar:hover {
+    cursor: pointer;
+    background-color: #1a73e8;   
+}
+
+main nav.Contenedor{
+    padding: 20px;
+    max-height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+main section.ImgGoogle{
+    display: flex;
+    justify-content: center;
+}
+main div.Barra{
+    height: 24px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    border: none;   
+    align-items: center;
+    border: 1px solid #c7c7c7;
+    border-radius: 24px;
+    background-color: transparent;
+}
+
+main div span.logobus{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 0px;
+    margin-top: 4px;
+    fill: gray;
+}
+main div button.logomicro img{
+    width: 13px;
+    height: 18px;
+   
+}
+main div button{
+    background-color: transparent;
+    border: none;
+}
+main div button.logocamara img{
+    width: 18px;
+    height: 18px;
+}
+main div span.botonmicro{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 0px;
+    margin-top: 4px;  
+}
+main div input{
+    height: 30px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+}
+main div.buscarsuerte {
+    display: flex;
+    justify-content: center;
+    font-family: arial,sans-serif;
+    gap: 15px;
+    padding: 18px;
+
+}main div button.botonbuscar{
+    padding: 16px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+footer{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+footer section.Pais{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #e8e9eb;
+}
+footer section.Links{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #e8e9eb;
+    display: flex;
+    justify-content: space-between;
+   
+}footer section.Links div a{
+    text-decoration: none;
+    color: #70757a;
+    padding: 15px;
+}
